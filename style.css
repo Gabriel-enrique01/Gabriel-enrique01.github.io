@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.meuNome {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.descricao {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid black;
+    position: absolute;
+    width: 65%;
+    right: 20px;
+    
+}
+body {
+    background-color: #C3BEF7;
+}
+.resido {
+    font-style: italic;
+}
+li {
+    font-size: large;
+}
+
+#foto {
+    width: 30%;
+    float: left;
+    margin-right: 100%;
+    padding: 5px;
+    background-color: black;
+}
+
+li:nth-child(odd) {
+    font-style: italic;
+}
